@@ -1,0 +1,7 @@
+Accesso il 2025-10-15 09:35:14 da IP: 192.168.65.1, Porta: 62489
+Accesso il 2025-10-15 09:35:16 da IP: 192.168.65.1, Porta: 62489
+Accesso il 2025-10-15 09:35:20 da IP: 192.168.65.1, Porta: 62489
+Data e ora 2025-10-15 09:46:45 da IP: 192.168.65.1, : 16427 . Conversione da C a F : 
+Data e ora 2025-10-15 09:46:51 da IP: 192.168.65.1, : 42909 . Conversione da C a F : 
+Data e ora 2025-10-15 09:48:48 da IP: 192.168.65.1, : 36868 . Conversione da C a F : 
+Data e ora 2025-10-15 09:48:50 da IP: 192.168.65.1, : 36868 . Conversione da C a F : 
