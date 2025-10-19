@@ -1,7 +1,10 @@
-Accesso il 2025-10-15 09:35:14 da IP: 192.168.65.1, Porta: 62489
-Accesso il 2025-10-15 09:35:16 da IP: 192.168.65.1, Porta: 62489
-Accesso il 2025-10-15 09:35:20 da IP: 192.168.65.1, Porta: 62489
-Data e ora 2025-10-15 09:46:45 da IP: 192.168.65.1, : 16427 . Conversione da C a F : 
-Data e ora 2025-10-15 09:46:51 da IP: 192.168.65.1, : 42909 . Conversione da C a F : 
-Data e ora 2025-10-15 09:48:48 da IP: 192.168.65.1, : 36868 . Conversione da C a F : 
-Data e ora 2025-10-15 09:48:50 da IP: 192.168.65.1, : 36868 . Conversione da C a F : 
+Data e ora 2025-10-19 16:43:58 da IP: 172.17.0.1, : 56780 . Conversione: 21 C a 69.8 F 
+Data e ora 2025-10-19 16:44:05 da IP: 172.17.0.1, : 56784 . Conversione: 21 C a 69.8 F 
+Data e ora 2025-10-19 16:52:09 da IP: 172.17.0.1, : 54168 . Conversione: 21 C a 69.8 F 
+Data e ora 2025-10-19 16:55:39 da IP: 172.17.0.1, : 42172 . Conversione: 21 C a 69.8 F 
+Data e ora 2025-10-19 16:56:28 da IP: 172.17.0.1, : 60992 . Conversione: 21 C a 69.8 F 
+Data e ora 2025-10-19 16:56:40 da IP: 172.17.0.1, : 32780 . Conversione: 33 C a 306.15 K 
+
+Data e ora 2025-10-19 16:56:55 da IP: 172.17.0.1, : 48002 . Conversione: 33 C a 306.15 K 
+
+Data e ora 2025-10-19 16:57:11 da IP: 172.17.0.1, : 57568 . Conversione: 33 C a 306.15 K 

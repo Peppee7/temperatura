@@ -29,6 +29,9 @@
     <br><br>
 
     <?php
+    $from = $_POST['from'];
+    $to = $_POST['to'];
+
     $conversioni = [
         'C' => [
             'F' => fn($t) => ($t * 9/5) + 32,
@@ -43,9 +46,6 @@
             'F' => fn($t) => ($t - 273.15) * 9/5 + 32
         ]
     ];
-    
-    $from = $_POST['from'];
-    $to = $_POST['to'];
 
     $ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : 'IP sconosciuto';
     $porta = isset($_SERVER['REMOTE_PORT']) ? $_SERVER['REMOTE_PORT'] : 'Porta sconosciuta';
@@ -63,21 +63,27 @@
 
     if (!is_numeric($temp)) {
         echo "Inserisci un numero valido.";
+        $flag = false;
         return;
     } elseif ($from === $to) {
-        echo "nessuna conversione";
+        echo "Nessuna conversione";
+        $flag = false;
         return;
     } elseif (!isset($conversioni[$from][$to])) {
         echo "Combinazione non valida.";
+        $flag = false;
         return;
     } else {
         $risultato = $conversioni[$from][$to]($temp);
-        echo "Risultato: {$_POST['temp']}° $from = $risultato° $to";
+        echo "Risultato: $temp ° $from = $risultato ° $to";
+        $flag = true;
     }
 
-
-    $log = "Data e ora $dataOra da IP: $ip, : $porta . Conversione da $from a $to : \n";
-
+    if ($flag == true) {
+        $log = "Data e ora $dataOra da IP: $ip, : $porta . Conversione: $temp $from a $risultato $to \n";
+    } elseif ($flag == false) {
+        $log = "ERRORE. Data e ora $dataOra da IP: $ip, : $porta . Conversione non valida \n";
+    }
     
     $handler = fopen('data/log.txt', 'a');
     fwrite($handler, $log);
